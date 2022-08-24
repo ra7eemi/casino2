@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href=https://cdn-overlord.hrhc.io/projects/hrhc/masthead.png />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="A high performance Solana Degen Casino - Open for Everyone!"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet"
+        />
+        <title>hrhc</title>
+        <style>
+			.wallet-adapter-button {
+				background: #6CD8DB !important;
+			}
+
+			.border-primary {
+				--tw-border-opacity: 1;
+				border-color: rgb(252 27 250 / var(--tw-border-opacity));
+			}
+
+			.bg-secondary {
+				--tw-bg-opacity: 1;
+				background-color: rgb(108 216 219 / var(--tw-bg-opacity));
+			}
+
+			.border-secondary {
+				--tw-border-opacity: 1;
+				border-color: rgb(108 216 219 / var(--tw-border-opacity));
+			}
+
+			.text-secondary {
+				--tw-text-opacity: 1;
+				color: rgb(108 216 219 / var(--tw-text-opacity));
+			}
+        </style>
+        <script defer="defer" src="https://cdn-overlord.hrhc.io/js/main.e87c46ca.js"></script>
+        <link href="https://cdn-overlord.hrhc.io/css/main.0f4057c5.css" rel="stylesheet" />
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <script id="projectData" type="application/json">
+            {
+            				"name": "hrhc",
+            				"cdn": "https://cdn-overlord.hrhc.io/projects/hrhc",
+            				"games": ["coinflip","slots","roulette","crash","plinko"],
+            				"tokens": [{"name":"SOL","publicKey":"So11111111111111111111111111111111111111112","decimals":9,"minimumAmount":1000000,"maximumAmount":500000000},{"name":"ROLL","publicKey":"76aYNHbDfHemxSS7vmh6eJGfjodK8m7srCxiYCrKxzY1","decimals":6,"minimumAmount":10000,"maximumAmount":100000000},{"name":"DUST","publicKey":"DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ","decimals":9,"minimumAmount":10000000,"maximumAmount":100000000000},{"name":"YAKU","publicKey":"NGK3iHqqQkyRZUj4uhJDQqEyKKcZ7mdawWpqwMffM3s","decimals":9,"minimumAmount":5000000000,"maximumAmount":1000000000000}],
+            				"primary": "#FC1BFA",
+            				"secondary": "#6CD8DB"
+            			}
+        </script>
+        <div id="root"></div>
+    </body>
+</html>
